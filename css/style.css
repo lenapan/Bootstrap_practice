@@ -1,0 +1,158 @@
+
+/*BEGIN navbar menu*/
+#menu{
+	padding-top: 7px;
+}
+#menu a{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 15px;
+	margin: 20px 0 13px 0;
+}
+#menu a { 
+	color: #ccc;
+}
+#menu a:hover{
+	color:#000;
+	text-decoration: none;
+	border-bottom: 3px solid #bca64d;
+	transition: 0.5s ease;
+}
+#menu a, #search a{
+	padding: 0 10px 30px 10px;
+}
+.fa-chevron-down {
+	font-size: 10px;
+	padding-left: 3px;
+	color: #bca64d;
+}
+input{
+	border-radius: 5px 0 0 5px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 17px;
+	padding: 5px 40px 7px 5px;
+	border: 1px solid #eee;
+}
+.fa-search{
+	color:#fff;
+	background-color: #bca64d;
+	padding: 13px 17px;
+	border-radius: 0 5px 5px 0;
+	margin:-4px;
+}
+.fa-search:hover{
+	color:#bca64d;
+	background-color: #fff;
+	cursor: pointer;
+}
+@media screen and (min-width:768px) and (max-width: 1146px){
+	#search{
+		margin-left:-90px;
+	}
+}
+/******* END navbar menu *******************************/
+
+/* BEGIN <figure> hero */
+figure{
+	background: #ddd;
+	width: 100%;
+	padding-bottom: 120px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+ 	text-align: center;
+ 	margin-bottom: 100px;
+}
+.hero{
+	padding-top: 130px;
+	width: 395px;
+	height: 190px;
+}
+.intro {
+	padding-bottom:  60px;
+}
+
+@media (max-width: 412px){
+	
+}
+/*END hero*/
+
+/******* BEGIN 'skills' section *******************************/
+.skills div{
+	padding: 50px;
+}
+.skills p{
+	padding-top:10px;
+}
+.contain-circle img{
+	border-radius: 50%;
+}
+.contain-circle{
+	/*background-color: #ccc;*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.c2{
+	/*background-color:tan; */
+}
+.contain-circle h3{
+	text-align: right;
+}
+h1{
+	text-align: center;
+	color:#ccc;
+}
+
+.contain-circle button{
+	border-radius: 12px;
+	border: 1px solid #bca64d;
+	padding: 10px 5px 10px 5px;
+	background-color: #bca64d;
+	color: #fff;
+}
+@media (max-width: 1240px){
+	.skills p{
+		height: 70px;
+		overflow-y: auto;
+
+	}
+}
+@media (max-width: 1155px){
+	.skills div{
+		padding:25px;
+	}
+}
+@media screen and (min-width:590px) and (max-width: 767px){
+	.skills div{
+		padding:86px;
+	}
+	.skills{
+		margin-top: -120px;
+	}
+}
+/*
+ .skills div:first-child{
+ 
+ }
+ .skills div:nth-child(2){
+ 	
+ }
+ .skills div:last-of-type{
+ 	
+ }
+/******* END 'skills' section *******************************/
+
+
+
+
+
+ /*BEGIN Footer */
+
+ .social-media i {
+ 	color:#bca64d;
+ 	font-size: 45px;
+ 	padding: 25px;
+ 	padding-bottom: 50px;
+ 	display: inline-block;
+ 	text-align: center;
+ }
+ /*END Footer */

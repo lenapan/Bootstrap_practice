@@ -106,12 +106,15 @@ figure{
 	background-color: #bca64d;
 	color: #fff;
 }
+.contain-circle button:hover{
+	font-size: 20px;
+}
 .work button{
 	width: 100%;
 	border-radius: 0;
 }
 .work button:hover{
-	box-shadow: ;
+	box-shadow: 0 5px skyblue;
 }
 @media (max-width: 1240px){
 	.skills p{
